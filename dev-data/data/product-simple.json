@@ -1,0 +1,258 @@
+[
+    {
+        "name": "Product 1",
+        "imageCover": "image1-min.png",
+        "price": 150,
+        "type": "road-bike",
+        "stock": 5,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 2",
+        "imageCover": "image2-min.png",
+        "price": 250,
+        "type": "road-bike",
+        "stock": 10,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 3",
+        "imageCover": "image17-min.png",
+        "price": 180,
+        "type": "mountain-bike",
+        "stock": 10,
+        "collections": "none"
+    },
+    {
+        "name": "Product 4",
+        "imageCover": "image13-min.png",
+        "price": 200,
+        "type": "mountain-bike",
+        "stock": 5,
+        "collections": "none"
+    },
+    {
+        "name": "Product 5",
+        "imageCover": "image3-min.png",
+        "price": 250,
+        "type": "road-bike",
+        "stock": 10,
+        "collections": "optional"
+    },
+    {
+        "name": "Product 6",
+        "imageCover": "image22-min.png",
+        "price": 200,
+        "type": "folding-bike",
+        "stock": 10,
+        "collections": "none"
+    },
+    {
+        "name": "Product 7",
+        "imageCover": "image6-min.png",
+        "price": 200,
+        "type": "road-bike",
+        "stock": 10,
+        "collections": "none"
+    },
+    {
+        "name": "Product 8",
+        "imageCover": "image23-min.png",
+        "price": 230,
+        "type": "folding-bike",
+        "stock": 5,
+        "collections": "none"
+    },
+    {
+        "name": "Product 9",
+        "imageCover": "image14-min.png",
+        "price": 170,
+        "type": "mountain-bike",
+        "stock": 8,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 10",
+        "imageCover": "image12-min.png",
+        "price": 200,
+        "type": "mountain-bike",
+        "stock": 8,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 11",
+        "imageCover": "image26-min.png",
+        "price": 300,
+        "type": "folding-bike",
+        "stock": 5,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 12",
+        "imageCover": "image4-min.png",
+        "price": 150,
+        "type": "road-bike",
+        "stock": 8,
+        "collections": "optional"
+    },
+    {
+        "name": "Product 13",
+        "imageCover": "image5-min.png",
+        "price": 200,
+        "type": "road-bike",
+        "stock": 8,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 14",
+        "imageCover": "image11-min.png",
+        "price": 230,
+        "type": "mountain-bike",
+        "stock": 5,
+        "collections": "optional"
+    },
+    {
+        "name": "Product 15",
+        "imageCover": "image24-min.png",
+        "price": 300,
+        "type": "folding-bike",
+        "stock": 10,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 16",
+        "imageCover": "image15-min.png",
+        "price": 250,
+        "type": "mountain-bike",
+        "stock": 10,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 17",
+        "imageCover": "image25-min.png",
+        "price": 300,
+        "type": "folding-bike",
+        "stock": 2,
+        "collections": "none"
+    },
+    {
+        "name": "Product 18",
+        "imageCover": "image7-min.png",
+        "price": 150,
+        "type": "road-bike",
+        "stock": 2,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 19",
+        "imageCover": "image16-min.png",
+        "price": 250,
+        "type": "mountain-bike",
+        "stock": 5,
+        "collections": "none"
+    },
+    {
+        "name": "Product 20",
+        "imageCover": "image8-min.png",
+        "price": 200,
+        "type": "road-bike",
+        "stock": 2,
+        "collections": "none"
+    },
+    {
+        "name": "Product 21",
+        "imageCover": "image33-min.png",
+        "price": 300,
+        "type": "folding-bike",
+        "stock": 10,
+        "collections": "none"
+    },
+    {
+        "name": "Product 22",
+        "imageCover": "image21-min.png",
+        "price": 250,
+        "type": "mountain-bike",
+        "stock": 8,
+        "collections": "none"
+    },
+    {
+        "name": "Product 23",
+        "imageCover": "image9-min.png",
+        "price": 150,
+        "type": "road-bike",
+        "stock": 5,
+        "collections": "none"
+    },
+    {
+        "name": "Product 24",
+        "imageCover": "image18-min.png",
+        "price": 200,
+        "type": "mountain-bike",
+        "stock": 8,
+        "collections": "none"
+    },
+    {
+        "name": "Product 25",
+        "imageCover": "image27-min.png",
+        "price": 300,
+        "type": "folding-bike",
+        "stock": 10,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 26",
+        "imageCover": "image10-min.png",
+        "price": 200,
+        "type": "road-bike",
+        "stock": 2,
+        "collections": "none"
+    },
+    {
+        "name": "Product 27",
+        "imageCover": "image19-min.png",
+        "price": 250,
+        "type": "mountain-bike",
+        "stock": 3,
+        "collections": "none"
+    },
+    {
+        "name": "Product 28",
+        "imageCover": "image20-min.png",
+        "price": 200,
+        "type": "mountain-bike",
+        "stock": 5,
+        "collections": "none"
+    },
+    {
+        "name": "Product 29",
+        "imageCover": "image28-min.png",
+        "price": 300,
+        "type": "folding-bike",
+        "stock": 8,
+        "collections": "optional"
+    },
+    {
+        "name": "Product 30",
+        "imageCover": "image29-min.png",
+        "price": 280,
+        "type": "folding-bike",
+        "stock": 5,
+        "collections": "none"
+    },
+    {
+        "name": "Product 31",
+        "imageCover": "image30-min.png",
+        "price": 300,
+        "type": "folding-bike",
+        "stock": 5,
+        "collections": "recent"
+    },
+    {
+        "name": "Product 32",
+        "imageCover": "image31-min.png",
+        "price": 300,
+        "type": "folding-bike",
+        "stock": 8,
+        "collections": "none"
+    }
+]
