@@ -170,6 +170,8 @@ exports.isLoggedInApi = async (req, res, next) => {
         }
     }
 
+    console.log('No cookie!');
+
     // By default if the cookie is invalid, or we dont have a cookie!
     res.status(200).json({
         status: 'success',
