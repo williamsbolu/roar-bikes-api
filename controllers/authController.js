@@ -150,12 +150,14 @@ exports.isLoggedInApi = async (req, res, next) => {
             }
 
             // Check if user changed password after the token was issued/created
-            if (currentUser.changePasswordAfter(decoded.iat)) {
+            if (currentUser.changedPasswordAfter(decoded.iat)) {
                 return res.status(200).json({
                     status: 'success',
                     isLoggedIn: false,
                 });
             }
+
+            console.log('no change pass error');
 
             return res.status(200).json({
                 status: 'success',
