@@ -132,6 +132,7 @@ exports.protect = catchAsync(async (req, res, next) => {
 exports.isLoggedInApi = async (req, res, next) => {
     if (req.cookies.jwt) {
         console.log('there ia a cookie');
+        console.log(req.cookies.jwt);
         try {
             // "throws" an error if it couldnt verify d token. thats why we use the try/catch block
             const decoded = await promisify(jwt.verify)(

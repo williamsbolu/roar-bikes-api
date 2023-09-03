@@ -3,6 +3,7 @@ const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
+const helmet = require();
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -12,6 +13,8 @@ const cartRouter = require('./routes/cartRoutes');
 const savedItemRouter = require('./routes/savedItemRoutes');
 
 const app = express();
+
+app.enable('trust proxy'); // for d host platform
 
 app.use(
     cors({
