@@ -15,6 +15,7 @@ const app = express();
 
 app.use(
     cors({
+        origin: ['https://roarbike-stores.vercel.app'],
         credentials: true,
     })
 );
