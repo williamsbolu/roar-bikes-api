@@ -7,6 +7,7 @@ const router = express.Router();
 router.use(authController.protect);
 
 router.get('/getUserCartData', cartController.getUserCartData);
+router.post('/importLocalCartData', cartController.importUserLocalCartData);
 
 router
     .route('/')

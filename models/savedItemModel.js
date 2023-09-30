@@ -1,6 +1,11 @@
 const mongoose = require('mongoose');
+const slugify = require('slugify');
 
 const savedItemSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: [true, 'A saved item must have a name'],
+    },
     user: {
         type: mongoose.Schema.ObjectId,
         ref: 'User',
@@ -11,6 +16,12 @@ const savedItemSchema = new mongoose.Schema({
         ref: 'Item',
         required: [true, 'The saved item must be specified'],
     },
+    slug: String,
+});
+
+savedItemSchema.pre('save', function (next) {
+    this.slug = slugify(this.name, { lower: true });
+    next();
 });
 
 savedItemSchema.pre(/^find/, function (next) {
@@ -21,5 +32,5 @@ savedItemSchema.pre(/^find/, function (next) {
     next();
 });
 
-const SavedItem = mongoose.model('SavedItemModel', savedItemSchema);
+const SavedItem = mongoose.model('SavedItem', savedItemSchema);
 module.exports = SavedItem;

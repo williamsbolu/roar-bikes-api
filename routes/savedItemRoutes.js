@@ -7,6 +7,7 @@ const router = express.Router();
 router.use(authController.protect);
 
 router.get('/getUserSavedItems', savedItemController.getUserSavedItems);
+router.post('/importLocalWishlistData', savedItemController.importLocalWishlistData);
 
 router
     .route('/')

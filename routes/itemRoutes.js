@@ -8,6 +8,8 @@ router
     .route('/recent-items')
     .get(itemController.aliasRecentItems, itemController.getAllItems);
 
+router.route('/item/:slug').get(itemController.getItemSlug);
+
 router
     .route('/')
     .get(itemController.getAllItems)
