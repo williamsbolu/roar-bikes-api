@@ -18,7 +18,7 @@ const savedItemRouter = require('./routes/savedItemRoutes');
 
 const app = express();
 
-// app.enable('trust proxy'); // for d host platform
+app.enable('trust proxy'); // for d host platform
 
 app.use(
     cors({
