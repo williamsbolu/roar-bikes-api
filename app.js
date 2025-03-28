@@ -22,11 +22,7 @@ app.enable('trust proxy'); // for d host platform
 
 app.use(
     cors({
-        origin: [
-            // 'https://roarbike-stores.vercel.app',
-            'http://localhost:3001',
-            'https://roarbikes-store.netlify.app',
-        ],
+        origin: ['http://localhost:3001', 'https://roarbikes-store.netlify.app'],
         credentials: true,
     })
 );
